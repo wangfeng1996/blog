@@ -30,6 +30,10 @@ module.exports = {
               text: '笔记',
               link: '/pages/note.md',
             },
+            {
+              text: '其他',
+              link: '/pages/other.md',
+            },
           ],
         },
         {

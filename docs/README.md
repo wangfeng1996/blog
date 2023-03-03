@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /bg.gif
-heroText: 标题
+heroText: 标题123456
 tagline: 副标题
 features:
 - title: 简洁至上
