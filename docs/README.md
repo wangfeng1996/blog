@@ -1,14 +1,14 @@
 ---
 home: true
 heroImage: /bg.gif
-heroText: 标题123456
-tagline: 副标题
+heroText: 个人精神知识仓库
+tagline: 业精于勤荒于嬉，行成于思毁于随
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动sdasfasfafasfafa
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-footer: Copyright © xx
+- title: 专心致志，夯实基础
+  details: 天道酬勤，要有匠心精神，要相信积累的力量，伟大的事业是撸起袖子干出来的。
+- title: 奋思进取，实事求是
+  details: 要避免故步自封，事物具有多面性，要站在客观角度去思考问题。
+- title: 厚德载物，自强不息
+  details: 加强身体锻炼，加强思想教育，多做事多参与多赞扬，少评论少旁观少批评。
+footer: 版权所有 © Cʜᴀɴɢᴇ
 ---
