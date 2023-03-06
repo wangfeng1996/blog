@@ -2,15 +2,20 @@ module.exports = {
     title: 'Cʜᴀɴɢᴇ',
     description: '描述',
     head: [
-        ['link', {rel: 'icon', href: '/logo.png'}]
+        ['link', {rel: 'icon', href: '/logo/logo.png'}]
     ],
     plugins: {
+        // 网页内容有更新的时候有刷新按钮。可以把网页保存到桌面，当一个app一样
         '@vuepress/pwa': {
             serviceWorker: true,
             updatePopup: {
                 message: "有新的内容更新",
                 buttonText: "刷新"
             }
+        },
+        // 帮我们统计网站的流量和分析网站的一些功能
+        '@vuepress/google-analytics': {
+            'ga': 'UA-166594741-1' // UA-00000000-0
         }
     },
     markdown: {
@@ -24,7 +29,7 @@ module.exports = {
         repoLabel: '查看源码',
         // 以下为可选的编辑链接选项
         // 假如你的文档仓库和项目本身不在一个仓库：
-       // docsRepo: 'https://github.com/wangfeng1996/blogs',
+        // docsRepo: 'https://github.com/wangfeng1996/blogs',
         // 假如文档不是放在仓库的根目录下：
         docsDir: 'docs',
         // 假如文档放在一个特定的分支下：
@@ -76,8 +81,7 @@ module.exports = {
             '/guide/': [
                 ''
             ],
-            '/java/': [
-            ],
+            '/java/': [],
             '/tools/idea/': [
                 {
                     title: 'IDEA',
@@ -117,10 +121,10 @@ module.exports = {
             ],
             '/website/': [
                 {
-                    title:'项目部署',
+                    title: '项目部署',
                     sidebarDepth: 5,
                     collapsable: true,
-                    children:[{title: '自动化部署项目', path: '自动化部署项目'}]
+                    children: [{title: '自动化部署项目', path: '自动化部署项目'}]
                 }
 
             ],

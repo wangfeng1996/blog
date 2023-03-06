@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /bg.gif
+heroImage: /logo/bg.gif
 heroText: 个人精神知识仓库
 tagline: 业精于勤荒于嬉，行成于思毁于随
 actionText: 快速上手 →

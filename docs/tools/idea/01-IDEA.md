@@ -18,4 +18,4 @@ open "/Users/用户/Library/Application Support/JetBrains/IntelliJIdea2021.1"
 
 ### IDE激活
 
-申请开源开发许可证 ->  https://www.jetbrains.com/shop/eform/opensource
+[申请开源开发许可证](https://www.jetbrains.com/shop/eform/opensource)
