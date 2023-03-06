@@ -10,5 +10,9 @@ features:
   details: 要避免故步自封，事物具有多面性，要站在客观角度去思考问题。
 - title: 厚德载物，自强不息
   details: 加强身体锻炼，加强思想教育，多做事多参与多赞扬，少评论少旁观少批评。
-footer: MIT Licensed | Copyright © 2023-present Cʜᴀɴɢᴇ 
+
+
+footer: MIT Licensed | Copyright © 2023-present [Cʜᴀɴɢᴇ](https://github.com/wangfeng1996) 
+
+
 ---
