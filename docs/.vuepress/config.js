@@ -54,12 +54,12 @@ module.exports = {
             {
                 text: 'java技术', items: [
                     {
-                        text: 'mysql',
-                        link: '/java/mysql/01-mysql'
+                        text: 'MySQL',
+                        link: '/java/MySQL/01-MySQL'
                     },
                     {
-                        text: 'spring',
-                        link: '/java/spring/01-spring'
+                        text: 'Spring',
+                        link: '/java/Spring/01-Spring'
                     }
                 ]
             },
@@ -98,28 +98,42 @@ module.exports = {
             '/guide/': [
                 ''
             ],
-            '/java/mysql': [
+            '/java/MySQL/': [
                 {
-                    title: 'mysql',
+                    title: 'MySQL',
                     sidebarDepth: 5,
                     // 可折叠的
+                    // path: '/mysql/',
                     collapsable: false,
                     children: [
-                        {title: 'mysql介绍', path: '01-mysql'}
+                        {title: 'MySQL介绍', path: '01-MySQL'}
                     ]
-                },
+                }
             ],
-            '/java/spring': [
+            '/java/Spring/': [
                 {
                     title: 'Spring',
                     sidebarDepth: 5,
                     // 可折叠的
-                    collapsable: false,
+                    // path: '/spring/',
+                    collapsable: true,
                     children: [
-                        {title: 'Spring介绍', path: '01-spring'}
+                        {title: 'Spring介绍', path: '01-Spring'}
                     ]
                 }
             ],
+
+            // '/java/spring': [
+            //     {
+            //         title: 'Spring',
+            //         sidebarDepth: 5,
+            //         // 可折叠的
+            //         collapsable: false,
+            //         children: [
+            //             {title: 'Spring介绍', path: '01-spring'}
+            //         ]
+            //     }
+            // ],
             '/tools/idea/': [
                 {
                     title: 'IDEA',
